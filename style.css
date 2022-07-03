@@ -23,6 +23,7 @@ span {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .haft-w {
@@ -47,4 +48,30 @@ section {
 .top-benner {
     background-image: url(images/top-banner.png);
     background-repeat: repeat;
+}
+
+.full img {
+    width: 6$;
+}
+
+.dream {
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+}
+
+.download-button {
+    text-decoration: none;
+    background-image: linear-gradient(orangered);
+    background-color: orangered;
+    border-radius: 30px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 40px;
+}
+
+.dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
